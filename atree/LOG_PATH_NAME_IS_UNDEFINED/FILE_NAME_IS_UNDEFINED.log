@@ -1,0 +1,856 @@
+2019-06-24 17:01:59 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:01:59 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:01:59 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e45fed6: startup date [Mon Jun 24 17:01:59 KST 2019]; root of context hierarchy
+2019-06-24 17:02:00 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:02:00 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:02:00 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:02:00 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:02:00 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:02:00 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:02:00 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 673 ms
+2019-06-24 17:02:00 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:02:00 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:02:00 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:02:00 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:02:00 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:02:00 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:02:00 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e45fed6: startup date [Mon Jun 24 17:01:59 KST 2019]; root of context hierarchy
+2019-06-24 17:02:00 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:02:00 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:02:00 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:02:00 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:02:00 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:02:00 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:02:00 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:02:00 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:02:00 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:02:00 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:02:00 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.935 seconds (JVM running for 24.636)
+2019-06-24 17:02:00 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:02:12 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-24 17:02:12 [INFO ] [FrameworkServlet.java]initServletBean(494) : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-24 17:02:12 [INFO ] [FrameworkServlet.java]initServletBean(509) : FrameworkServlet 'dispatcherServlet': initialization completed in 23 ms
+2019-06-24 17:02:12 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:02:12 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:02:12 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:02:12 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:02:19 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:02:19 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:02:19 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:02:19 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:03:15 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@5e45fed6: startup date [Mon Jun 24 17:01:59 KST 2019]; root of context hierarchy
+2019-06-24 17:03:15 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:03:15 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:03:15 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:03:15 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:03:15 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34082a4: startup date [Mon Jun 24 17:03:15 KST 2019]; root of context hierarchy
+2019-06-24 17:03:15 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:03:16 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:03:16 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:03:16 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:03:16 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:03:16 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:03:16 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 657 ms
+2019-06-24 17:03:16 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:03:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:03:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:03:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:03:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:03:16 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:16 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34082a4: startup date [Mon Jun 24 17:03:15 KST 2019]; root of context hierarchy
+2019-06-24 17:03:16 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index],methods=[GET]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:03:16 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:03:16 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:03:16 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:16 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:16 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:03:16 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:03:16 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:03:16 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:03:16 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:03:16 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.926 seconds (JVM running for 100.505)
+2019-06-24 17:03:16 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:03:17 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-24 17:03:17 [INFO ] [FrameworkServlet.java]initServletBean(494) : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-24 17:03:17 [INFO ] [FrameworkServlet.java]initServletBean(509) : FrameworkServlet 'dispatcherServlet': initialization completed in 11 ms
+2019-06-24 17:03:17 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:17 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:17 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:17 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:18 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:18 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:18 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:18 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:19 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:20 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:21 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:22 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:23 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:24 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:25 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:26 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:03:26 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:03:26 [INFO ] [BoardController.java]index(19) : i======================================================
+2019-06-24 17:03:26 [INFO ] [BoardController.java]index(20) : index
+2019-06-24 17:03:32 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@34082a4: startup date [Mon Jun 24 17:03:15 KST 2019]; root of context hierarchy
+2019-06-24 17:03:32 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:03:32 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:03:32 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:03:32 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:03:32 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@409aecb7: startup date [Mon Jun 24 17:03:32 KST 2019]; root of context hierarchy
+2019-06-24 17:03:33 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:03:33 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:03:33 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:03:33 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:03:33 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:03:33 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:03:33 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 630 ms
+2019-06-24 17:03:33 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:03:33 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:03:33 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:03:33 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:03:33 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:03:33 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:33 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@409aecb7: startup date [Mon Jun 24 17:03:32 KST 2019]; root of context hierarchy
+2019-06-24 17:03:33 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:03:33 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:03:33 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:03:33 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:33 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:03:33 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:03:33 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:03:33 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:03:33 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:03:33 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:03:33 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.851 seconds (JVM running for 117.825)
+2019-06-24 17:03:33 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:04:48 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@409aecb7: startup date [Mon Jun 24 17:03:32 KST 2019]; root of context hierarchy
+2019-06-24 17:04:48 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:04:48 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:04:49 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:04:49 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:04:49 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33ec4b33: startup date [Mon Jun 24 17:04:49 KST 2019]; root of context hierarchy
+2019-06-24 17:04:49 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:04:49 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:04:49 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:04:49 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:04:49 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:04:49 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:04:49 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 630 ms
+2019-06-24 17:04:49 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:04:49 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:04:49 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:04:49 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:04:49 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:04:49 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:04:49 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33ec4b33: startup date [Mon Jun 24 17:04:49 KST 2019]; root of context hierarchy
+2019-06-24 17:04:49 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:04:49 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:04:49 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:04:49 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:04:49 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:04:49 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:04:49 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:04:49 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:04:49 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:04:49 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:04:49 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.859 seconds (JVM running for 194.058)
+2019-06-24 17:04:49 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:04:51 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-24 17:04:51 [INFO ] [FrameworkServlet.java]initServletBean(494) : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-24 17:04:51 [INFO ] [FrameworkServlet.java]initServletBean(509) : FrameworkServlet 'dispatcherServlet': initialization completed in 1 ms
+2019-06-24 17:04:51 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:51 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:51 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:51 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:52 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:52 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:52 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:52 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:54 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:04:55 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:11 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:11 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:11 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:11 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:12 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:12 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:12 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:12 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:13 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:14 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:06:55 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@33ec4b33: startup date [Mon Jun 24 17:04:49 KST 2019]; root of context hierarchy
+2019-06-24 17:06:55 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:06:55 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:06:55 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:06:55 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:06:55 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@326be23d: startup date [Mon Jun 24 17:06:55 KST 2019]; root of context hierarchy
+2019-06-24 17:06:56 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:06:56 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:06:56 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:06:56 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:06:56 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:06:56 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:06:56 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 635 ms
+2019-06-24 17:06:56 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:06:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:06:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:06:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:06:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:06:56 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:06:56 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@326be23d: startup date [Mon Jun 24 17:06:55 KST 2019]; root of context hierarchy
+2019-06-24 17:06:56 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:06:56 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:06:56 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:06:56 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:06:56 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:06:56 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:06:56 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:06:56 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:06:56 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:06:56 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:06:56 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:06:56 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.855 seconds (JVM running for 320.55)
+2019-06-24 17:06:56 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:06:58 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-24 17:06:58 [INFO ] [FrameworkServlet.java]initServletBean(494) : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-24 17:06:58 [INFO ] [FrameworkServlet.java]initServletBean(509) : FrameworkServlet 'dispatcherServlet': initialization completed in 6 ms
+2019-06-24 17:06:58 [INFO ] [BoardController.java]index(16) : i======================================================
+2019-06-24 17:06:58 [INFO ] [BoardController.java]index(17) : i======================================================
+2019-06-24 17:06:58 [INFO ] [BoardController.java]index(18) : i======================================================
+2019-06-24 17:06:58 [INFO ] [BoardController.java]index(19) : index
+2019-06-24 17:07:27 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@326be23d: startup date [Mon Jun 24 17:06:55 KST 2019]; root of context hierarchy
+2019-06-24 17:07:27 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:07:27 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:07:28 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:07:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:07:28 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@448b54a4: startup date [Mon Jun 24 17:07:28 KST 2019]; root of context hierarchy
+2019-06-24 17:07:28 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:07:28 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:07:28 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:07:28 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:07:28 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:07:28 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:07:28 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 657 ms
+2019-06-24 17:07:28 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:07:28 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:07:28 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:07:28 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:07:28 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:07:28 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:28 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@448b54a4: startup date [Mon Jun 24 17:07:28 KST 2019]; root of context hierarchy
+2019-06-24 17:07:28 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:07:28 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:07:28 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:07:28 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:28 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:28 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:07:28 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:07:28 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:07:28 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:07:28 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:07:28 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:07:28 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.888 seconds (JVM running for 352.936)
+2019-06-24 17:07:28 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:07:39 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@448b54a4: startup date [Mon Jun 24 17:07:28 KST 2019]; root of context hierarchy
+2019-06-24 17:07:39 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:07:39 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:07:39 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:07:39 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:07:39 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@738f214: startup date [Mon Jun 24 17:07:39 KST 2019]; root of context hierarchy
+2019-06-24 17:07:40 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:07:40 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:07:40 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:07:40 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:07:40 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:07:40 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:07:40 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 619 ms
+2019-06-24 17:07:40 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:07:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:07:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:07:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:07:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:07:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:40 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@738f214: startup date [Mon Jun 24 17:07:39 KST 2019]; root of context hierarchy
+2019-06-24 17:07:40 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:07:40 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:07:40 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:07:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:07:40 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:07:40 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:07:40 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:07:40 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:07:40 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:07:40 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:07:40 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.843 seconds (JVM running for 364.703)
+2019-06-24 17:07:40 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:08:09 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@738f214: startup date [Mon Jun 24 17:07:39 KST 2019]; root of context hierarchy
+2019-06-24 17:08:09 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:08:09 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:08:10 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:08:10 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:08:10 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@aa382fc: startup date [Mon Jun 24 17:08:10 KST 2019]; root of context hierarchy
+2019-06-24 17:08:10 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:08:10 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:08:10 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:08:10 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:08:10 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:08:10 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:08:10 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 657 ms
+2019-06-24 17:08:10 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:08:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:08:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:08:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:08:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:08:10 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:10 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@aa382fc: startup date [Mon Jun 24 17:08:10 KST 2019]; root of context hierarchy
+2019-06-24 17:08:10 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:08:10 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:08:10 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:08:10 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:10 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:10 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:08:10 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:08:10 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:08:10 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:08:10 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:08:10 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:08:10 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.884 seconds (JVM running for 394.924)
+2019-06-24 17:08:10 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:08:19 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@aa382fc: startup date [Mon Jun 24 17:08:10 KST 2019]; root of context hierarchy
+2019-06-24 17:08:19 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:08:19 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:08:19 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:08:19 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:08:19 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47963db: startup date [Mon Jun 24 17:08:19 KST 2019]; root of context hierarchy
+2019-06-24 17:08:20 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:08:20 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:08:20 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:08:20 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:08:20 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:08:20 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:08:20 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 671 ms
+2019-06-24 17:08:20 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:08:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:08:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:08:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:08:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:08:20 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:20 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47963db: startup date [Mon Jun 24 17:08:19 KST 2019]; root of context hierarchy
+2019-06-24 17:08:20 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:08:20 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:08:20 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:08:20 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:20 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:20 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:08:20 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:08:20 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:08:20 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:08:20 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:08:20 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:08:20 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.894 seconds (JVM running for 404.755)
+2019-06-24 17:08:20 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:08:50 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@47963db: startup date [Mon Jun 24 17:08:19 KST 2019]; root of context hierarchy
+2019-06-24 17:08:50 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:08:50 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:08:50 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:08:50 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:08:50 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19f61a: startup date [Mon Jun 24 17:08:50 KST 2019]; root of context hierarchy
+2019-06-24 17:08:51 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:08:51 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:08:51 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:08:51 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:08:51 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:08:51 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:08:51 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 705 ms
+2019-06-24 17:08:51 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:08:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:08:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:08:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:08:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:08:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:51 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19f61a: startup date [Mon Jun 24 17:08:50 KST 2019]; root of context hierarchy
+2019-06-24 17:08:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:08:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:08:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:08:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:08:51 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:08:51 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:08:51 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:08:51 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:08:51 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:08:51 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:08:51 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.926 seconds (JVM running for 435.527)
+2019-06-24 17:08:51 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:09:06 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19f61a: startup date [Mon Jun 24 17:08:50 KST 2019]; root of context hierarchy
+2019-06-24 17:09:06 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:09:06 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:09:06 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:09:06 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:09:06 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a806d59: startup date [Mon Jun 24 17:09:06 KST 2019]; root of context hierarchy
+2019-06-24 17:09:07 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:09:07 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:09:07 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:09:07 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:09:07 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:09:07 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:09:07 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 684 ms
+2019-06-24 17:09:07 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:09:07 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:09:07 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:09:07 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:09:07 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:09:07 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:07 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a806d59: startup date [Mon Jun 24 17:09:06 KST 2019]; root of context hierarchy
+2019-06-24 17:09:07 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:09:07 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:09:07 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:09:07 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:07 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:07 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:09:07 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:09:07 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:09:07 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:09:07 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:09:07 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:09:07 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.924 seconds (JVM running for 451.927)
+2019-06-24 17:09:07 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:09:43 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7a806d59: startup date [Mon Jun 24 17:09:06 KST 2019]; root of context hierarchy
+2019-06-24 17:09:43 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:09:43 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:09:43 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:09:43 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:09:43 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@337a78b5: startup date [Mon Jun 24 17:09:43 KST 2019]; root of context hierarchy
+2019-06-24 17:09:44 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:09:44 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:09:44 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:09:44 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:09:44 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:09:44 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:09:44 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 642 ms
+2019-06-24 17:09:44 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:09:44 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:09:44 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:09:44 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:09:44 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:09:44 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:44 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@337a78b5: startup date [Mon Jun 24 17:09:43 KST 2019]; root of context hierarchy
+2019-06-24 17:09:44 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:09:44 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:09:44 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:09:44 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:44 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:44 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:09:44 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:09:44 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:09:44 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:09:44 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:09:44 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:09:44 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.863 seconds (JVM running for 488.738)
+2019-06-24 17:09:44 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:09:50 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@337a78b5: startup date [Mon Jun 24 17:09:43 KST 2019]; root of context hierarchy
+2019-06-24 17:09:50 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:09:50 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:09:51 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:09:51 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:09:51 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17dd3eb5: startup date [Mon Jun 24 17:09:51 KST 2019]; root of context hierarchy
+2019-06-24 17:09:51 [WARN ] [Logger.java]warn(44) : No MyBatis mapper was found in '[com.atree]' package. Please check your configuration.
+2019-06-24 17:09:51 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:09:51 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:09:51 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:09:51 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:09:51 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:09:51 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 641 ms
+2019-06-24 17:09:51 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:09:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:09:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:09:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:09:51 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:09:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:51 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17dd3eb5: startup date [Mon Jun 24 17:09:51 KST 2019]; root of context hierarchy
+2019-06-24 17:09:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:09:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:09:51 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:09:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:51 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:09:51 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:09:51 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:09:51 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:09:51 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:09:51 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:09:51 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:09:51 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.877 seconds (JVM running for 495.899)
+2019-06-24 17:09:51 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:11:17 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@17dd3eb5: startup date [Mon Jun 24 17:09:51 KST 2019]; root of context hierarchy
+2019-06-24 17:11:17 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:11:17 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:11:17 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:11:17 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:11:18 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4885ffc9: startup date [Mon Jun 24 17:11:18 KST 2019]; root of context hierarchy
+2019-06-24 17:11:18 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:11:18 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:11:18 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:11:18 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:11:18 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:11:18 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 642 ms
+2019-06-24 17:11:18 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:11:18 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:11:18 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:11:18 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:11:18 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:11:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:18 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4885ffc9: startup date [Mon Jun 24 17:11:18 KST 2019]; root of context hierarchy
+2019-06-24 17:11:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:11:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:11:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:11:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:18 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:11:18 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:11:18 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:11:18 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:11:18 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:11:18 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:11:18 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.903 seconds (JVM running for 582.926)
+2019-06-24 17:11:18 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(50) : Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   MybatisAutoConfiguration.MapperScannerRegistrarNotFoundConfiguration:
+      Did not match:
+         - @ConditionalOnMissingBean (types: org.mybatis.spring.mapper.MapperFactoryBean; SearchStrategy: all) found beans of type 'org.mybatis.spring.mapper.MapperFactoryBean' &boardImplService, &boardDaoService, &boardMapper (OnBeanCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2019-06-24 17:11:54 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4885ffc9: startup date [Mon Jun 24 17:11:18 KST 2019]; root of context hierarchy
+2019-06-24 17:11:54 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:11:54 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:11:54 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:11:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:11:54 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32e61381: startup date [Mon Jun 24 17:11:54 KST 2019]; root of context hierarchy
+2019-06-24 17:11:55 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:11:55 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:11:55 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:11:55 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:11:55 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:11:55 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 642 ms
+2019-06-24 17:11:55 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:11:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:11:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:11:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:11:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:11:55 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:55 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32e61381: startup date [Mon Jun 24 17:11:54 KST 2019]; root of context hierarchy
+2019-06-24 17:11:55 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:11:55 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:11:55 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:11:55 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:55 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:11:55 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:11:55 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:11:55 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:11:55 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:11:55 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:11:55 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:11:55 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.906 seconds (JVM running for 619.674)
+2019-06-24 17:11:55 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:13:03 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@32e61381: startup date [Mon Jun 24 17:11:54 KST 2019]; root of context hierarchy
+2019-06-24 17:13:03 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:13:03 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:13:03 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:13:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:13:03 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b42f566: startup date [Mon Jun 24 17:13:03 KST 2019]; root of context hierarchy
+2019-06-24 17:13:04 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:13:04 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:13:04 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:13:04 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:13:04 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:13:04 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 643 ms
+2019-06-24 17:13:04 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:13:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:13:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:13:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:13:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:13:04 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:04 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b42f566: startup date [Mon Jun 24 17:13:03 KST 2019]; root of context hierarchy
+2019-06-24 17:13:04 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:13:04 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:13:04 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:13:04 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:04 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:04 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:13:04 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:13:04 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:13:04 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:13:04 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:13:04 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:13:04 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.879 seconds (JVM running for 688.571)
+2019-06-24 17:13:04 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:13:22 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7b42f566: startup date [Mon Jun 24 17:13:03 KST 2019]; root of context hierarchy
+2019-06-24 17:13:22 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:13:22 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:13:22 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:13:22 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:13:22 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7db13e01: startup date [Mon Jun 24 17:13:22 KST 2019]; root of context hierarchy
+2019-06-24 17:13:23 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:13:23 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:13:23 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:13:23 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:13:23 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:13:23 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 624 ms
+2019-06-24 17:13:23 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:13:23 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:13:23 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:13:23 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:13:23 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:13:23 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:23 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7db13e01: startup date [Mon Jun 24 17:13:22 KST 2019]; root of context hierarchy
+2019-06-24 17:13:23 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:13:23 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:13:23 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:13:23 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:23 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:23 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:13:23 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:13:23 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:13:23 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:13:23 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:13:23 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:13:23 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.845 seconds (JVM running for 707.584)
+2019-06-24 17:13:23 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-24 17:13:31 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@7db13e01: startup date [Mon Jun 24 17:13:22 KST 2019]; root of context hierarchy
+2019-06-24 17:13:31 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-24 17:13:31 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-24 17:13:31 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25228 (C:\Users\user\Desktop\board\atree\target\classes started by user in C:\Users\user\Desktop\board\atree)
+2019-06-24 17:13:31 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-24 17:13:31 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@626424e2: startup date [Mon Jun 24 17:13:31 KST 2019]; root of context hierarchy
+2019-06-24 17:13:31 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-24 17:13:31 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-24 17:13:31 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-24 17:13:32 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-24 17:13:32 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-24 17:13:32 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 680 ms
+2019-06-24 17:13:32 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-24 17:13:32 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-24 17:13:32 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-24 17:13:32 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-24 17:13:32 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-24 17:13:32 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:32 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@626424e2: startup date [Mon Jun 24 17:13:31 KST 2019]; root of context hierarchy
+2019-06-24 17:13:32 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public void com.atree.board.controller.BoardController.index()
+2019-06-24 17:13:32 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-24 17:13:32 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-24 17:13:32 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:32 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-24 17:13:32 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-24 17:13:32 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-24 17:13:32 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-24 17:13:32 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-24 17:13:32 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-24 17:13:32 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-24 17:13:32 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.913 seconds (JVM running for 716.337)
+2019-06-24 17:13:32 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
