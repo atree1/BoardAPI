@@ -3,13 +3,19 @@ package com.atree.board.service;
 import java.util.HashMap;
 import java.util.List;
 
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
 import com.atree.board.mapper.BoardMapper;
 import com.atree.board.vo.BoardVO;
 
+import lombok.Setter;
 
-public class BoardDao implements BoardDaoService{
+@Service
+public class BoardServiceImpl implements BoardService{
 
-
+	@Setter(onMethod_=@Autowired)
+	
 	private BoardMapper m;
 	
 	@Override

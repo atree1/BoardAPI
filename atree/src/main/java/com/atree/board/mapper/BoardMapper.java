@@ -11,7 +11,12 @@ import com.atree.board.vo.BoardVO;
 public interface BoardMapper {
 
 	List<HashMap> selectBoardList() throws Exception;
+
 	HashMap selectBoardDetail(BoardVO vo) throws Exception;
+
 	int insertBoard(BoardVO vo) throws Exception;
-	
+
+	int updateBoard(BoardVO vo) throws Exception;
+
+	int removeBoard(BoardVO vo) throws Exception;
 }
