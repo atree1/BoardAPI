@@ -15,7 +15,6 @@ import lombok.Setter;
 public class BoardServiceImpl implements BoardService{
 
 	@Setter(onMethod_=@Autowired)
-	
 	private BoardMapper m;
 	
 	@Override

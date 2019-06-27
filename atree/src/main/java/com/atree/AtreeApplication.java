@@ -7,7 +7,7 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan
-@MapperScan(value={"com.atree.board"})
+@MapperScan(value={"com.atree.board.mapper"})
 public class AtreeApplication {
 
 	public static void main(String[] args) {
