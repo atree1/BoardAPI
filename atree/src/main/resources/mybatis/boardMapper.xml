@@ -8,4 +8,31 @@
 			from board
 			where board_seq>0
 		</select>
+
+		
+		<select id="selectBoardDetail" parameterType="com.atree.board.vo.BoardVO" resultType="HashMap">
+		select *
+		from board
+		where board_seq=#{board_seq}
+			
+		</select>
+		<insert id="insertBoard" parameterType="com.atree.board.vo.BoardVO">
+			insert into board(title,content,writer) values(#{title},#{content},#{writer})
+		</insert>
+		
+		<update id="updateBoard" parameterType="com.atree.board.vo.BoardVO" >
+		update board 
+			set title=#{title},content=#{content}
+		where
+			board_seq = #{board_seq}
+	</update>
+	
+		<delete id="removeBoard" parameterType="com.atree.board.vo.BoardVO" >
+		delete
+		from 
+			board
+		where
+			board_seq=#{board_seq}
+				
+		</delete>
 </mapper>

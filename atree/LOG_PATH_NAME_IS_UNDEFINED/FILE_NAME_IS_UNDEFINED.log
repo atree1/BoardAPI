@@ -17869,3 +17869,394 @@ Query is: DELETE FROM SPRING_SESSION WHERE EXPIRY_TIME < ?, parameters [15616971
 2019-06-28 13:55:22 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
 2019-06-28 13:55:22 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 0.899 seconds (JVM running for 542.619)
 2019-06-28 13:55:22 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-28 13:58:35 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@b7122fa: startup date [Fri Jun 28 13:55:22 KST 2019]; root of context hierarchy
+2019-06-28 13:58:35 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-28 13:58:35 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-28 13:59:11 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 13:59:11 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 13:59:11 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@568cf1f2: startup date [Fri Jun 28 13:59:11 KST 2019]; root of context hierarchy
+2019-06-28 13:59:11 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 13:59:11 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 13:59:11 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 13:59:11 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 13:59:11 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 13:59:11 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 782 ms
+2019-06-28 13:59:11 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 13:59:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 13:59:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 13:59:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 13:59:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 13:59:11 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:11 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@568cf1f2: startup date [Fri Jun 28 13:59:11 KST 2019]; root of context hierarchy
+2019-06-28 13:59:11 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.index(org.springframework.ui.Model) throws java.lang.Exception
+2019-06-28 13:59:11 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 13:59:11 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 13:59:11 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:11 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:12 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-28 13:59:12 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-28 13:59:12 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-28 13:59:12 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 13:59:12 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-28 13:59:12 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-28 13:59:12 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 1.07 seconds (JVM running for 771.821)
+2019-06-28 13:59:12 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-28 13:59:16 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@568cf1f2: startup date [Fri Jun 28 13:59:11 KST 2019]; root of context hierarchy
+2019-06-28 13:59:16 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-28 13:59:16 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-28 13:59:17 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 13:59:17 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 13:59:17 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@144fcb98: startup date [Fri Jun 28 13:59:17 KST 2019]; root of context hierarchy
+2019-06-28 13:59:17 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 13:59:17 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 13:59:17 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 13:59:17 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 13:59:17 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 13:59:17 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 725 ms
+2019-06-28 13:59:17 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 13:59:17 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 13:59:17 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 13:59:17 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 13:59:17 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 13:59:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:18 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@144fcb98: startup date [Fri Jun 28 13:59:17 KST 2019]; root of context hierarchy
+2019-06-28 13:59:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.index(org.springframework.ui.Model) throws java.lang.Exception
+2019-06-28 13:59:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 13:59:18 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 13:59:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:18 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 13:59:18 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-28 13:59:18 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-28 13:59:18 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-28 13:59:18 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 13:59:18 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-28 13:59:18 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-28 13:59:18 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 1.008 seconds (JVM running for 777.868)
+2019-06-28 13:59:18 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-28 14:18:07 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-06-28 14:18:07 [INFO ] [FrameworkServlet.java]initServletBean(494) : FrameworkServlet 'dispatcherServlet': initialization started
+2019-06-28 14:18:07 [INFO ] [FrameworkServlet.java]initServletBean(509) : FrameworkServlet 'dispatcherServlet': initialization completed in 2 ms
+2019-06-28 14:18:07 [INFO ] [HikariDataSource.java]getConnection(110) : HikariPool-7 - Starting...
+2019-06-28 14:18:07 [INFO ] [HikariDataSource.java]getConnection(123) : HikariPool-7 - Start completed.
+2019-06-28 14:18:07 [INFO ] [Slf4jSpyLogDelegator.java]sqlTimingOccurred(373) : select *
+			from board
+			where board_seq>0
+ {executed in 1 msec}
+2019-06-28 14:18:08 [INFO ] [Slf4jSpyLogDelegator.java]sqlTimingOccurred(373) : select *
+			from board
+			where board_seq>0
+ {executed in 0 msec}
+2019-06-28 16:45:10 [WARN ] [HikariPool.java]run(758) : HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=44m2s710ms711µs28ns).
+2019-06-28 19:27:46 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@144fcb98: startup date [Fri Jun 28 13:59:17 KST 2019]; root of context hierarchy
+2019-06-28 19:27:46 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-28 19:27:46 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-28 19:27:46 [INFO ] [HikariDataSource.java]close(381) : HikariPool-7 - Shutdown initiated...
+2019-06-28 19:27:46 [INFO ] [HikariDataSource.java]close(383) : HikariPool-7 - Shutdown completed.
+2019-06-28 19:27:47 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 19:27:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 19:27:47 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e9d7fee: startup date [Fri Jun 28 19:27:47 KST 2019]; root of context hierarchy
+2019-06-28 19:27:47 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 19:27:47 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 19:27:47 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 19:27:47 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 19:27:47 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 19:27:47 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 683 ms
+2019-06-28 19:27:47 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 19:27:47 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 19:27:47 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 19:27:47 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 19:27:47 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 19:27:48 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:27:48 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e9d7fee: startup date [Fri Jun 28 19:27:47 KST 2019]; root of context hierarchy
+2019-06-28 19:27:48 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/index]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.index(org.springframework.ui.Model) throws java.lang.Exception
+2019-06-28 19:27:48 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-28 19:27:48 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-28 19:27:48 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:27:48 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:27:48 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-28 19:27:48 [INFO ] [OptionalLiveReloadServer.java]startServer(57) : LiveReload server is running on port 35729
+2019-06-28 19:27:48 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-28 19:27:48 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-28 19:27:48 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-28 19:27:48 [INFO ] [TomcatWebServer.java]start(206) : Tomcat started on port(s): 8080 (http) with context path ''
+2019-06-28 19:27:48 [INFO ] [StartupInfoLogger.java]logStarted(59) : Started AtreeApplication in 1.018 seconds (JVM running for 20487.881)
+2019-06-28 19:27:48 [INFO ] [ConditionEvaluationDeltaLoggingListener.java]onApplicationEvent(56) : Condition evaluation unchanged
+2019-06-28 19:50:03 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@4e9d7fee: startup date [Fri Jun 28 19:27:47 KST 2019]; root of context hierarchy
+2019-06-28 19:50:03 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-28 19:50:03 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-28 19:50:03 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 19:50:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 19:50:03 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12854720: startup date [Fri Jun 28 19:50:03 KST 2019]; root of context hierarchy
+2019-06-28 19:50:04 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 19:50:04 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 19:50:04 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 19:50:04 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 19:50:04 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 19:50:04 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 743 ms
+2019-06-28 19:50:04 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 19:50:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 19:50:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 19:50:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 19:50:04 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 19:50:04 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:50:04 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@12854720: startup date [Fri Jun 28 19:50:03 KST 2019]; root of context hierarchy
+2019-06-28 19:50:04 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/updateBoard],methods=[POST]}" onto public int com.atree.board.controller.BoardController.updateBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+2019-06-28 19:50:04 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/getBoardList],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception
+2019-06-28 19:50:04 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+2019-06-28 19:50:04 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-28 19:50:04 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-28 19:50:04 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:580)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:544)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:250)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:248)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
+2019-06-28 19:51:09 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 19:51:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 19:51:09 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@636307d4: startup date [Fri Jun 28 19:51:09 KST 2019]; root of context hierarchy
+2019-06-28 19:51:10 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 19:51:10 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 19:51:10 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 19:51:10 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 19:51:10 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 19:51:10 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 643 ms
+2019-06-28 19:51:10 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 19:51:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 19:51:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 19:51:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 19:51:10 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 19:51:10 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:51:10 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@636307d4: startup date [Fri Jun 28 19:51:09 KST 2019]; root of context hierarchy
+2019-06-28 19:51:10 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/updateBoard],methods=[POST]}" onto public int com.atree.board.controller.BoardController.updateBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+2019-06-28 19:51:10 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/getBoardList],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception
+2019-06-28 19:51:10 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+2019-06-28 19:51:10 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-28 19:51:10 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-28 19:51:10 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:580)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:544)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:250)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:248)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
+2019-06-28 19:51:47 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 19:51:47 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 19:51:47 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ebb3f5: startup date [Fri Jun 28 19:51:47 KST 2019]; root of context hierarchy
+2019-06-28 19:51:47 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 19:51:47 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 19:51:47 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 19:51:48 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 19:51:48 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 19:51:48 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 694 ms
+2019-06-28 19:51:48 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 19:51:48 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 19:51:48 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 19:51:48 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 19:51:48 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 19:51:48 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:51:48 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@20ebb3f5: startup date [Fri Jun 28 19:51:47 KST 2019]; root of context hierarchy
+2019-06-28 19:51:48 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/updateBoard],methods=[POST]}" onto public int com.atree.board.controller.BoardController.updateBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+2019-06-28 19:51:48 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/getBoardList],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception
+2019-06-28 19:51:48 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+2019-06-28 19:51:48 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-28 19:51:48 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-28 19:51:48 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:580)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:544)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:250)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:248)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
+2019-06-28 19:52:19 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24228 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-28 19:52:19 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-28 19:52:19 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c45bb5: startup date [Fri Jun 28 19:52:19 KST 2019]; root of context hierarchy
+2019-06-28 19:52:20 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-28 19:52:20 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-28 19:52:20 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-28 19:52:20 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-28 19:52:20 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-28 19:52:20 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 712 ms
+2019-06-28 19:52:20 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-28 19:52:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-28 19:52:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-28 19:52:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-28 19:52:20 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-28 19:52:20 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-28 19:52:20 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@43c45bb5: startup date [Fri Jun 28 19:52:19 KST 2019]; root of context hierarchy
+2019-06-28 19:52:20 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/updateBoard],methods=[POST]}" onto public int com.atree.board.controller.BoardController.updateBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+2019-06-28 19:52:20 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/board/getBoardList],methods=[GET]}" onto public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception
+2019-06-28 19:52:20 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+2019-06-28 19:52:20 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-28 19:52:20 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-28 19:52:20 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'requestMappingHandlerMapping' defined in class path resource [org/springframework/boot/autoconfigure/web/servlet/WebMvcAutoConfiguration$EnableWebMvcConfiguration.class]: Invocation of init method failed; nested exception is java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1699)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:573)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:495)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:317)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:315)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:199)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:759)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:869)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: java.lang.IllegalStateException: Ambiguous mapping. Cannot map 'boardController' method 
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoard(com.atree.board.vo.BoardVO) throws java.lang.Exception
+to {[/board/getBoardList],methods=[GET]}: There is already 'boardController' bean method
+public java.util.Map<java.lang.String, java.lang.Object> com.atree.board.controller.BoardController.getBoardList() throws java.lang.Exception mapped.
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.assertUniqueMethodMapping(AbstractHandlerMethodMapping.java:580)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping$MappingRegistry.register(AbstractHandlerMethodMapping.java:544)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.registerHandlerMethod(AbstractHandlerMethodMapping.java:265)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.lambda$detectHandlerMethods$1(AbstractHandlerMethodMapping.java:250)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.detectHandlerMethods(AbstractHandlerMethodMapping.java:248)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.initHandlerMethods(AbstractHandlerMethodMapping.java:218)
+	at org.springframework.web.servlet.handler.AbstractHandlerMethodMapping.afterPropertiesSet(AbstractHandlerMethodMapping.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerMapping.afterPropertiesSet(RequestMappingHandlerMapping.java:136)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1758)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1695)
+	... 21 common frames omitted
