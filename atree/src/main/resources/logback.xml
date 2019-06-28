@@ -46,8 +46,6 @@
 
 	<logger name="org.springframework.web" level="info" />
 
-	<logger name="com.igloosec.be" level="debug"></logger>
-
 	<root level="INFO">
 		<appender-ref ref="STDOUT" />
 	</root>

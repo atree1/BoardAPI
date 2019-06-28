@@ -1,0 +1,868 @@
+2019-06-27 20:03:21 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 768 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:03:21 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:03:21 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ad547c: startup date [Thu Jun 27 20:03:21 KST 2019]; root of context hierarchy
+2019-06-27 20:03:23 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:03:23 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:03:23 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:03:23 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:03:24 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:03:24 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:03:24 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2566 ms
+2019-06-27 20:03:24 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:03:24 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:03:24 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:03:24 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:03:24 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:03:24 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through method 'setService' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:03:24 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:03:24 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:03:24 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setService in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-06-27 20:04:05 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24924 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:04:05 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:04:05 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:04:05 KST 2019]; root of context hierarchy
+2019-06-27 20:04:06 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:04:06 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:04:05 KST 2019]; root of context hierarchy
+2019-06-27 20:08:23 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 14244 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:08:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:08:23 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:08:23 KST 2019]; root of context hierarchy
+2019-06-27 20:08:24 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:08:24 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:08:23 KST 2019]; root of context hierarchy
+2019-06-27 20:10:51 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 26304 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:10:51 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:10:51 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ad547c: startup date [Thu Jun 27 20:10:51 KST 2019]; root of context hierarchy
+2019-06-27 20:10:52 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:10:52 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ad547c: startup date [Thu Jun 27 20:10:51 KST 2019]; root of context hierarchy
+2019-06-27 20:12:58 [INFO ] [AbstractTestContextBootstrapper.java]buildDefaultMergedContextConfiguration(308) : Neither @ContextConfiguration nor @ContextHierarchy found for test class [com.atree.AtreeApplicationTests], using SpringBootContextLoader
+2019-06-27 20:12:58 [INFO ] [AbstractContextLoader.java]generateDefaultLocations(264) : Could not detect default resource locations for test class [com.atree.AtreeApplicationTests]: no resource found for suffixes {-context.xml, Context.groovy}.
+2019-06-27 20:12:58 [INFO ] [AnnotationConfigContextLoaderUtils.java]detectDefaultConfigurationClasses(83) : Could not detect default configuration classes for test class [com.atree.AtreeApplicationTests]: AtreeApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2019-06-27 20:12:58 [INFO ] [SpringBootTestContextBootstrapper.java]getOrFindConfigurationClasses(247) : Found @SpringBootConfiguration com.atree.AtreeApplication for test class com.atree.AtreeApplicationTests
+2019-06-27 20:12:59 [INFO ] [AbstractTestContextBootstrapper.java]getDefaultTestExecutionListenerClassNames(248) : Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener, org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener]
+2019-06-27 20:12:59 [INFO ] [AbstractTestContextBootstrapper.java]getTestExecutionListeners(177) : Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@3f6b0be5, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@611889f4, org.springframework.boot.test.mock.mockito.MockitoTestExecutionListener@1da2cb77, org.springframework.boot.test.autoconfigure.SpringBootDependencyInjectionTestExecutionListener@48f278eb, org.springframework.test.context.support.DirtiesContextTestExecutionListener@2f217633, org.springframework.test.context.transaction.TransactionalTestExecutionListener@a530d0a, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@1a18644, org.springframework.boot.test.mock.mockito.ResetMocksTestExecutionListener@5acf93bb, org.springframework.boot.test.autoconfigure.restdocs.RestDocsTestExecutionListener@7e7be63f, org.springframework.boot.test.autoconfigure.web.client.MockRestServiceServerResetTestExecutionListener@6cd28fa7, org.springframework.boot.test.autoconfigure.web.servlet.MockMvcPrintOnlyOnFailureTestExecutionListener@614ca7df, org.springframework.boot.test.autoconfigure.web.servlet.WebDriverTestExecutionListener@4738a206]
+2019-06-27 20:12:59 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplicationTests on ��ȣ�� with PID 24940 (started by user in C:\Users\user\git\atree)
+2019-06-27 20:12:59 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:12:59 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@5cdec700: startup date [Thu Jun 27 20:12:59 KST 2019]; root of context hierarchy
+2019-06-27 20:13:00 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+2019-06-27 20:13:00 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.web.context.support.GenericWebApplicationContext@5cdec700: startup date [Thu Jun 27 20:12:59 KST 2019]; root of context hierarchy
+2019-06-27 20:13:00 [ERROR] [TestContextManager.java]prepareTestInstance(250) : Caught exception while allowing TestExecutionListener [org.springframework.test.context.web.ServletTestExecutionListener@3f6b0be5] to prepare test instance [com.atree.AtreeApplicationTests@5cc69cfe]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:125)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:108)
+	at org.springframework.test.context.web.ServletTestExecutionListener.setUpRequestContextIfNecessary(ServletTestExecutionListener.java:190)
+	at org.springframework.test.context.web.ServletTestExecutionListener.prepareTestInstance(ServletTestExecutionListener.java:132)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:365)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:273)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:159)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:379)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:340)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:125)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:413)
+Caused by: org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(LinkedHashMap.java:684)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.test.context.SpringBootContextLoader.loadContext(SpringBootContextLoader.java:139)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:117)
+	... 27 common frames omitted
+2019-06-27 20:13:28 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 668 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:13:28 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:13:28 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:13:28 KST 2019]; root of context hierarchy
+2019-06-27 20:13:28 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:13:28 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:13:28 KST 2019]; root of context hierarchy
+2019-06-27 20:15:23 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24960 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:15:23 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:15:23 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:15:23 KST 2019]; root of context hierarchy
+2019-06-27 20:15:24 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:15:24 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:15:23 KST 2019]; root of context hierarchy
+2019-06-27 20:16:14 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 24084 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:16:14 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:16:15 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:16:15 KST 2019]; root of context hierarchy
+2019-06-27 20:16:15 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:16:15 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:16:15 KST 2019]; root of context hierarchy
+2019-06-27 20:16:54 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 22060 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:16:54 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:16:54 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:16:54 KST 2019]; root of context hierarchy
+2019-06-27 20:16:55 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:16:55 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:16:55 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:16:55 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:16:56 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:16:56 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:16:56 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2115 ms
+2019-06-27 20:16:56 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:16:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:16:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:16:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:16:56 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:16:56 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through method 'setService' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:16:56 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:16:56 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:16:56 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setService in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-06-27 20:18:34 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 22244 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:18:34 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:18:34 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:18:34 KST 2019]; root of context hierarchy
+2019-06-27 20:18:35 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:18:35 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@6bb14e84: startup date [Thu Jun 27 20:18:34 KST 2019]; root of context hierarchy
+2019-06-27 20:24:46 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 23832 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:24:46 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:24:46 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:24:46 KST 2019]; root of context hierarchy
+2019-06-27 20:24:47 [ERROR] [SpringApplication.java]reportFailure(845) : Application run failed
+org.springframework.context.annotation.ConflictingBeanDefinitionException: Annotation-specified bean name 'boardService' for bean class [com.atree.board.service.BoardService] conflicts with existing, non-compatible bean definition of same name and class [com.atree.board.service.BoardServiceImpl]
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.checkCandidate(ClassPathBeanDefinitionScanner.java:348)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.checkCandidate(ClassPathMapperScanner.java:237)
+	at org.springframework.context.annotation.ClassPathBeanDefinitionScanner.doScan(ClassPathBeanDefinitionScanner.java:286)
+	at org.mybatis.spring.mapper.ClassPathMapperScanner.doScan(ClassPathMapperScanner.java:168)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:123)
+	at org.mybatis.spring.annotation.MapperScannerRegistrar.registerBeanDefinitions(MapperScannerRegistrar.java:72)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:358)
+	at java.util.LinkedHashMap.forEach(Unknown Source)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:357)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:145)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:117)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:328)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:233)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:271)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:91)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:694)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:532)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+2019-06-27 20:24:47 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:24:46 KST 2019]; root of context hierarchy
+2019-06-27 20:25:09 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 22716 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:25:09 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:25:09 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:25:09 KST 2019]; root of context hierarchy
+2019-06-27 20:25:11 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:25:11 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2148 ms
+2019-06-27 20:25:11 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:25:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:25:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:25:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:25:11 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:25:11 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through field 'service'; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:25:11 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:25:11 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:25:11 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Field service in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-06-27 20:25:49 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 6976 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:25:49 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:25:50 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@224ad3d2: startup date [Thu Jun 27 20:25:50 KST 2019]; root of context hierarchy
+2019-06-27 20:25:51 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:25:51 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:25:51 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:25:51 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:25:52 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:25:52 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:25:52 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2067 ms
+2019-06-27 20:25:52 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:25:52 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:25:52 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:25:52 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:25:52 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:25:52 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:25:52 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@224ad3d2: startup date [Thu Jun 27 20:25:50 KST 2019]; root of context hierarchy
+2019-06-27 20:25:52 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-27 20:25:52 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-27 20:25:52 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:25:52 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:25:52 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-27 20:25:53 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2019-06-27 20:25:53 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-27 20:25:53 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-27 20:25:53 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-27 20:25:53 [ERROR] [DirectJDKLog.java]log(182) : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2019-06-27 20:25:53 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:25:53 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:25:53 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-27 20:25:53 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@224ad3d2: startup date [Thu Jun 27 20:25:50 KST 2019]; root of context hierarchy
+2019-06-27 20:25:53 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-27 20:25:53 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-27 20:26:12 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 26064 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:26:12 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:26:12 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:12 KST 2019]; root of context hierarchy
+2019-06-27 20:26:14 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:26:14 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:26:14 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:26:14 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:26:14 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:26:14 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:26:14 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2144 ms
+2019-06-27 20:26:14 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:26:14 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:26:14 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:26:14 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:26:14 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:26:15 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:15 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:12 KST 2019]; root of context hierarchy
+2019-06-27 20:26:15 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-27 20:26:15 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-27 20:26:15 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:15 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:15 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-27 20:26:15 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2019-06-27 20:26:16 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-27 20:26:16 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-27 20:26:16 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-27 20:26:16 [ERROR] [DirectJDKLog.java]log(182) : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2019-06-27 20:26:16 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:26:16 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:26:16 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-27 20:26:16 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:12 KST 2019]; root of context hierarchy
+2019-06-27 20:26:16 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-27 20:26:16 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-27 20:26:38 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 25972 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:26:38 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:26:38 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:38 KST 2019]; root of context hierarchy
+2019-06-27 20:26:39 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:26:39 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:26:39 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:26:39 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:26:40 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:26:40 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:26:40 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2080 ms
+2019-06-27 20:26:40 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:26:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:26:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:26:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:26:40 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:26:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:40 [INFO ] [RequestMappingHandlerAdapter.java]initControllerAdviceCache(574) : Looking for @ControllerAdvice: org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:38 KST 2019]; root of context hierarchy
+2019-06-27 20:26:40 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-06-27 20:26:40 [INFO ] [AbstractHandlerMethodMapping.java]register(547) : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-06-27 20:26:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:40 [INFO ] [AbstractUrlHandlerMapping.java]registerHandler(373) : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-06-27 20:26:40 [INFO ] [WelcomePageHandlerMapping.java]<init>(61) : Adding welcome page template: index
+2019-06-27 20:26:41 [WARN ] [OptionalLiveReloadServer.java]startServer(61) : Unable to start LiveReload server
+2019-06-27 20:26:41 [INFO ] [MBeanExporter.java]afterSingletonsInstantiated(433) : Registering beans for JMX exposure on startup
+2019-06-27 20:26:41 [INFO ] [MBeanExporter.java]autodetect(895) : Bean with name 'dataSource' has been autodetected for JMX exposure
+2019-06-27 20:26:41 [INFO ] [MBeanExporter.java]registerBeanInstance(668) : Located MBean 'dataSource': registering with JMX server as MBean [com.zaxxer.hikari:name=dataSource,type=HikariDataSource]
+2019-06-27 20:26:41 [ERROR] [DirectJDKLog.java]log(182) : Failed to start connector [Connector[HTTP/1.1-8080]]
+org.apache.catalina.LifecycleException: Failed to start component [Connector[HTTP/1.1-8080]]
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:167)
+	at org.apache.catalina.core.StandardService.addConnector(StandardService.java:225)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.addPreviouslyRemovedConnectors(TomcatWebServer.java:256)
+	at org.springframework.boot.web.embedded.tomcat.TomcatWebServer.start(TomcatWebServer.java:198)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.startWebServer(ServletWebServerApplicationContext.java:300)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.finishRefresh(ServletWebServerApplicationContext.java:162)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:553)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:140)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:762)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:398)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:330)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1258)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1246)
+	at com.atree.AtreeApplication.main(AtreeApplication.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49)
+Caused by: org.apache.catalina.LifecycleException: Protocol handler start failed
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1020)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	... 18 common frames omitted
+Caused by: java.net.BindException: Address already in use: bind
+	at sun.nio.ch.Net.bind0(Native Method)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.Net.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketChannelImpl.bind(Unknown Source)
+	at sun.nio.ch.ServerSocketAdaptor.bind(Unknown Source)
+	at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:210)
+	at org.apache.tomcat.util.net.AbstractEndpoint.start(AbstractEndpoint.java:1150)
+	at org.apache.coyote.AbstractProtocol.start(AbstractProtocol.java:591)
+	at org.apache.catalina.connector.Connector.startInternal(Connector.java:1018)
+	... 19 common frames omitted
+2019-06-27 20:26:41 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:26:41 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:26:41 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+The Tomcat connector configured to listen on port 8080 failed to start. The port may already be in use or the connector may be misconfigured.
+
+Action:
+
+Verify the connector's configuration, identify and stop any process that's listening on port 8080, or configure this application to listen on another port.
+
+2019-06-27 20:26:41 [INFO ] [AbstractApplicationContext.java]doClose(993) : Closing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:26:38 KST 2019]; root of context hierarchy
+2019-06-27 20:26:41 [INFO ] [MBeanExporter.java]destroy(451) : Unregistering JMX-exposed beans on shutdown
+2019-06-27 20:26:41 [INFO ] [MBeanRegistrationSupport.java]unregisterBeans(185) : Unregistering JMX-exposed beans
+2019-06-27 20:27:53 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 16280 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:27:53 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:27:53 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@224ad3d2: startup date [Thu Jun 27 20:27:53 KST 2019]; root of context hierarchy
+2019-06-27 20:27:55 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:27:55 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2088 ms
+2019-06-27 20:27:55 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:27:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:27:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:27:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:27:55 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:27:55 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through method 'setService' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:27:55 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:27:55 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:27:55 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setService in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-06-27 20:30:03 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 10620 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:30:03 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:30:04 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@62ad547c: startup date [Thu Jun 27 20:30:04 KST 2019]; root of context hierarchy
+2019-06-27 20:30:05 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:30:05 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:30:05 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:30:05 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:30:06 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:30:06 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:30:06 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2165 ms
+2019-06-27 20:30:06 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:30:06 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:30:06 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:30:06 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:30:06 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:30:06 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through method 'setService' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:30:06 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:30:06 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:30:06 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setService in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+
+2019-06-27 20:34:13 [INFO ] [StartupInfoLogger.java]logStarting(50) : Starting AtreeApplication on 이호중 with PID 16704 (C:\Users\user\git\atree\target\classes started by user in C:\Users\user\git\atree)
+2019-06-27 20:34:13 [INFO ] [SpringApplication.java]logStartupProfileInfo(662) : No active profile set, falling back to default profiles: default
+2019-06-27 20:34:14 [INFO ] [AbstractApplicationContext.java]prepareRefresh(590) : Refreshing org.springframework.boot.web.servlet.context.AnnotationConfigServletWebServerApplicationContext@19c2e5b2: startup date [Thu Jun 27 20:34:14 KST 2019]; root of context hierarchy
+2019-06-27 20:34:15 [INFO ] [TomcatWebServer.java]initialize(91) : Tomcat initialized with port(s): 8080 (http)
+2019-06-27 20:34:15 [INFO ] [DirectJDKLog.java]log(180) : Starting service [Tomcat]
+2019-06-27 20:34:15 [INFO ] [DirectJDKLog.java]log(180) : Starting Servlet Engine: Apache Tomcat/8.5.32
+2019-06-27 20:34:15 [INFO ] [DirectJDKLog.java]log(180) : The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [C:\Program Files\Java\jre1.8.0_202\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:/Program Files/Java/jre1.8.0_202/bin/server;C:/Program Files/Java/jre1.8.0_202/bin;C:/Program Files/Java/jre1.8.0_202/lib/amd64;C:\oraclexe\app\oracle\product\11.2.0\server\bin;;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\Zulu\zulu-8\bin\;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\nodejs\;C:\Users\user\AppData\Local\Microsoft\WindowsApps;;C:\Users\user\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\user\AppData\Roaming\npm;C:\Program Files\Bandizip\;C:\sts-bundle\sts-3.8.1.RELEASE;;.]
+2019-06-27 20:34:16 [INFO ] [DirectJDKLog.java]log(180) : At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+2019-06-27 20:34:16 [INFO ] [DirectJDKLog.java]log(180) : Initializing Spring embedded WebApplicationContext
+2019-06-27 20:34:16 [INFO ] [ServletWebServerApplicationContext.java]prepareWebApplicationContext(285) : Root WebApplicationContext: initialization completed in 2075 ms
+2019-06-27 20:34:16 [INFO ] [ServletRegistrationBean.java]addRegistration(187) : Servlet dispatcherServlet mapped to [/]
+2019-06-27 20:34:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-06-27 20:34:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-06-27 20:34:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-06-27 20:34:16 [INFO ] [AbstractFilterRegistrationBean.java]configure(245) : Mapping filter: 'requestContextFilter' to: [/*]
+2019-06-27 20:34:16 [WARN ] [AbstractApplicationContext.java]refresh(558) : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'boardController': Unsatisfied dependency expressed through method 'setService' parameter 0; nested exception is org.springframework.beans.factory.NoUniqueBeanDefinitionException: No qualifying bean of type 'com.atree.board.service.BoardService' available: expected single matching bean but found 2: boardServiceImpl,boardService
+2019-06-27 20:34:16 [INFO ] [DirectJDKLog.java]log(180) : Stopping service [Tomcat]
+2019-06-27 20:34:16 [INFO ] [ConditionEvaluationReportLoggingListener.java]logAutoConfigurationReport(101) : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2019-06-27 20:34:16 [ERROR] [LoggingFailureAnalysisReporter.java]report(42) : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Parameter 0 of method setService in com.atree.board.controller.BoardController required a single bean, but 2 were found:
+	- boardServiceImpl: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardServiceImpl.class]
+	- boardService: defined in file [C:\Users\user\git\atree\target\classes\com\atree\board\service\BoardService.class]
+
+
+Action:
+
+Consider marking one of the beans as @Primary, updating the consumer to accept multiple beans, or using @Qualifier to identify the bean that should be consumed
+

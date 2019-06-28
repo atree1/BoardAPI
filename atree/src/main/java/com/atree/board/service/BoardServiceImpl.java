@@ -3,6 +3,9 @@ package com.atree.board.service;
 import java.util.HashMap;
 import java.util.List;
 
+import javax.annotation.Resource;
+
+import org.mybatis.spring.SqlSessionTemplate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,9 +18,8 @@ import lombok.Setter;
 public class BoardServiceImpl implements BoardService{
 
 	@Setter(onMethod_=@Autowired)
-	
 	private BoardMapper m;
-	
+
 	@Override
 	public List<HashMap> selectBoardList() throws Exception {
 		// TODO Auto-generated method stub
